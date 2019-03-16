@@ -15,8 +15,9 @@ The repo will be maintained by zen-star, and the README.md will record members' 
 
 ## Detailed Record
 
-#### Week 1:
+### TODO:
 
+#### Week 1:
 **Shuting**: Know how semantic/instance segmentation works, especially in the medicine field.  
 **Yifeng**:   
 **Kai**: Learn how to use git and github.  
@@ -24,3 +25,8 @@ The repo will be maintained by zen-star, and the README.md will record members' 
 **Changqing**:  
 **Yuning**:  
 **Shida**: Read and study DeeperLab(CVPR, 2019) and try to get the recurrent code, [lingtengqiu/Deeperlab-pytorch](//github.com/lingtengqiu/Deeperlab-pytorch), clearly.  
+ 
+ 
+ ### HAVEDONE
+ 
+ Nothing for now.
