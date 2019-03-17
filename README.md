@@ -10,7 +10,7 @@ The repo will be maintained by zen-star, and the README.md will record members' 
 
 | He Shuting | Tang Yifeng | Niu Kai | Li Yang | Li Changqing | Tian Yuning | Zheng Shida |
 | ---------- | ----------- | ------- | --------| ------------ | ----------- | ----------- |
-|  Seg Base  |       -     |   Git   |    -    |       -      |      -      |  DeeperLab  |
+|  Seg Base  |       -     |   Git   |   Git   |     SVM      |      -      |  DeeperLab  |
 
 
 ## Detailed Record
@@ -21,8 +21,8 @@ The repo will be maintained by zen-star, and the README.md will record members' 
 **Shuting**: Know how semantic/instance segmentation works, especially in the medicine field.  
 **Yifeng**:   
 **Kai**: Learn how to use git and github.  
-**Yang**:  
-**Changqing**:  
+**Yang**: Learn how to use git and github.  
+**Changqing**:  Learn basic theory of SVM 
 **Yuning**:  
 **Shida**: Read and study DeeperLab(CVPR, 2019) and try to get the recurrent code, [lingtengqiu/Deeperlab-pytorch](//github.com/lingtengqiu/Deeperlab-pytorch), clearly.  
  
