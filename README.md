@@ -19,11 +19,17 @@ The repo will be maintained by zen-star, and the README.md will record members' 
 
 #### Week 1:
 **Shuting**: Know how semantic/instance segmentation works, especially in the medicine field.  
+
 **Yifeng**:   
+
 **Kai**: Learn how to use git and github.  
+
 **Yang**: Learn how to use git and github.  
-**Changqing**:  Learn basic theory of SVM 
+
+**Changqing**:  Learn basic theory of SVM. 
+
 **Yuning**:  
+
 **Shida**: Read and study DeeperLab(CVPR, 2019) and try to get the recurrent code, [lingtengqiu/Deeperlab-pytorch](//github.com/lingtengqiu/Deeperlab-pytorch), clearly.  
  
  
