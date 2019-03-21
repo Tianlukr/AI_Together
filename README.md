@@ -1,6 +1,6 @@
 # AI_Together
 
-*Last edited by [zen-star](//github.com/zen-star), March 16th, 2019*
+*Last edited by [zen-star](//github.com/zen-star), March 21th, 2019*
 
 This is the repo specially for our small group to learn AI together. Members are all from __ZJUAI CLUB__, from freshmen/women to graduates. We would like to motivate each other to learn AI with the help of _Wechat_ and _github_. Useful resources, notes, interview preparations, trial codes, etc. are included.
 
@@ -35,4 +35,4 @@ The repo will be maintained by zen-star, and the README.md will record members' 
  
  ### HAVEDONE
  
- Nothing for now.
+*Shida, March 21th:* successfully installed __mpi4py__ with openmpi altogether, recorded some important configuration and marked down the simple usage of mpi4py. See ./Shida/MPI4PY.md for Details. 
