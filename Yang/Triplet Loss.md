@@ -6,4 +6,7 @@
 如果每次迭代都是随机地取triplets，那么只能在这些triplets的图片上加很少的限制。因此，每次迭代，随机选取一小部分的persons,只用这些persons生成triplets，那么可以少量的图片却加了很多的限制。那么每次迭代，一张图片会出现在多个triplets中，我们可以设计算法来避免计算相同图片的梯度。这样使得计算量主要取决于图片数量而不是triplet数量。
 目标函数如下，其中C是为了防止容易识别的triplet造成loss太小，给出一个下界，这里c=-1.FW是网络的输出：
 ![](https://github.com/Tianlukr/AI_Together/blob/master/Yang/f.PNG)
+### 网络结构如下：
+![](https://github.com/Tianlukr/AI_Together/blob/master/Yang/net.PNG)
+1st卷积层：32kernels 5*5*3 s=2  2nd卷积层：32kernels 5*5*32 s=1  fc:400
 ## 论文二《In Defense of the Triplet Loss for Person Re-Identification》
