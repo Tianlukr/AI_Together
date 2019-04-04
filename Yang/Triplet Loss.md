@@ -10,8 +10,14 @@
 ![](https://github.com/Tianlukr/AI_Together/blob/master/Yang/net.PNG)
 1st卷积层：32kernels 5*5*3 s=2  2nd卷积层：32kernels 5*5*32 s=1  fc:400
 #### triplet-based gradient descent algorithm 
-![推导]()
+![推导](https://github.com/Tianlukr/AI_Together/blob/master/Yang/algorithm1.PNG)
 ![伪代码](https://github.com/Tianlukr/AI_Together/blob/master/Yang/Algorithm_1.PNG)
+对于每个triplet，需要计算Fw和Fw对w的偏导，共6项
+#### image-based gradient descent algorithm 
+基于triplet的梯度算法中，每个triplet有3次前向和3次后向，而同一张图片会在不同的triplet中出现，于是有了改进的基于image梯度下降算法，来减少重复计算。
+传统的方法，对于单张图片：loss对每层的W偏导=loss对每层的特征图X求偏导*X对W求偏导，然后吧所有图片的偏导值相加除以总图片数即可
 
 
+参考博客：https://www.cnblogs.com/jermmyhsu/p/8257981.html
+         https://blog.csdn.net/qq_28659831/article/details/80805291 
 ## 论文二《In Defense of the Triplet Loss for Person Re-Identification》
