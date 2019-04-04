@@ -4,7 +4,7 @@
 每个triplet单元包括3张图片，分别是anchor(query image),positive,negative，目的是使每个triplet中matched pair和mismatched pair的相对距离最大化，前者比后者小，采用L2 distance。由于每张图片会在很多个triplet出现，triplet的数量很多，为解决这个问题，采用一种triplets generation scheme和一种梯度下降算法，使得计算量主要取决于图片数量而不是triplet数量。采用这个模型的原因，其一，解决类内差异、类内相似问题，其二，生成多于图片数量的triplets，加入了更多的限制constraints，缓解过拟合。
 ### 网络结构如下：
 ![](https://github.com/Tianlukr/AI_Together/blob/master/Yang/net.PNG)
-1st卷积层：32kernels 5*5*3 s=2    2nd卷积层：32kernels 5*5*32 s=1     fc:400
+* 1st卷积层：32kernels 5*5*3 s=2       2nd卷积层：32kernels 5*5*32 s=1       fc:400
 ### triplet-based gradient descent algorithm 
 ![推导](https://github.com/Tianlukr/AI_Together/blob/master/Yang/algorithm1.PNG) 
 * 其中C是为了防止容易识别的triplet造成loss太小，给出一个下界，这里c=-1.
