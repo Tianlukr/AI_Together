@@ -24,6 +24,8 @@
  ### 测试与训练
  把数据集平均分成训练集和测试集，然后把测试集分成gallery set（每个人只对应一张图片）和probe set，对probe的每张图，从gallery中选出最接近的n张。
  CMC曲线，横坐标是n，纵坐标是所有图片的rank-n准确率取平均值
-参考博客：https://www.cnblogs.com/jermmyhsu/p/8257981.html
+* 参考博客：https://www.cnblogs.com/jermmyhsu/p/8257981.html
          https://blog.csdn.net/qq_28659831/article/details/80805291 
+         
+         
 ## 论文二《In Defense of the Triplet Loss for Person Re-Identification》
