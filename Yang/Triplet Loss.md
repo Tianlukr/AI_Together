@@ -9,4 +9,9 @@
 ### 网络结构如下：
 ![](https://github.com/Tianlukr/AI_Together/blob/master/Yang/net.PNG)
 1st卷积层：32kernels 5*5*3 s=2  2nd卷积层：32kernels 5*5*32 s=1  fc:400
+#### triplet-based gradient descent algorithm 
+![推导]()
+![伪代码](https://github.com/Tianlukr/AI_Together/blob/master/Yang/Algorithm_1.PNG)
+
+
 ## 论文二《In Defense of the Triplet Loss for Person Re-Identification》
